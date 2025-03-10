@@ -1,0 +1,34 @@
+@font-face {
+  font-family: "Evafiya";
+  src: local("Evafiya"), url("./Evafiya.ttf") format("truetype");
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: "Nimbus";
+  src: url("./Nimbus-Reg.otf") format("opentype");
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: "Nimbus";
+  src: url("./Nimbus-RegIta.otf") format("opentype");
+  font-weight: normal;
+  font-style: italic;
+}
+
+@font-face {
+  font-family: "Nimbus";
+  src: url("./Nimbus-Med.otf") format("opentype");
+  font-weight: 500; /* Medium weight */
+  font-style: normal;
+}
+
+@font-face {
+  font-family: "Nimbus";
+  src: url("./Nimbus-MedIta.otf") format("opentype");
+  font-weight: 500; /* Medium weight */
+  font-style: italic;
+}

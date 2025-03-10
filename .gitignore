@@ -1,0 +1,49 @@
+# Dependencies
+/node_modules/
+
+# Versiones de paquetes donde se bloquean las versiones exactas (si se usa)
+/package-lock.json
+/yarn.lock
+
+# Build output
+/build/
+/dist/
+
+# Archivos de configuración local del entorno
+/.env
+/.env.local
+/.env.development.local
+/.env.test.local
+/.env.production.local
+
+# Archivos del sistema
+.DS_Store
+Thumbs.db
+
+# Directorios de caché y archivos de logs
+.npm
+.yarn
+.yarnrc.yml
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# Directorios de cobertura de pruebas
+/coverage/
+/.nyc_output
+
+# Archivos de configuración de herramientas de desarrollo
+/.vscode/
+/.idea/
+*.swp
+*~
+.project
+
+# Archivos de configuración de CI/CD
+/.github/workflows/
+
+# Archivos de configuración específicos de herramientas como Babel, ESLint, etc.
+# Dependiendo de tus herramientas, es posible que desees excluir ciertos archivos de configuración
+# .babelrc
+# .eslintrc.js
+# .prettierrc
